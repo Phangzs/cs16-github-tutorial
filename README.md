@@ -14,13 +14,13 @@
   - [Step 4: Get SSH keys](#step-4-get-ssh-keys)
   - [Step 5: Input Keys and Test](#step-5-input-keys-and-test)
 - [Example: GitHub Workflow](#example-calculator-app)
-  - [Step 1: Clone the repository]
-  - [Step 2: Pull the latest changes]
-  - [Step 3: Check the repository status]
-  - [Step 4: Remove an outdated file]
-  - [Step 5: Add your name]
-  - [Step 6: Push the changes to GitHub]
-- [Review: What did we do?]
+  - [Step 1: Clone the repository](#step-1-clone-the-repository)
+  - [Step 2: Pull the latest changes](#step-2pull-the-latest-changes)
+  - [Step 3: Check the repository status](#step-3-check-the-repository-status)
+  - [Step 4: Remove an outdated file](#step-4-remove-an-outdated-file)
+  - [Step 5: Add your name](#step-5-add-your-name)
+  - [Step 6: Push the changes to GitHub](#step-6-push-the-changes-to-github)
+- [Review: What did we do?](#review-what-did-we-do)
 - [Learning More](#learning-more)
 
 ## Introduction: Why GitHub?
