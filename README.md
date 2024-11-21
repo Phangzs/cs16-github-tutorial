@@ -5,15 +5,22 @@
 - [The Git Workflow](#the-git-workflow)
   - [Commit](#commit)
   - [Push](#push)
-  - [Example: Calculator App](#example-calculator-app)
-  - [Setting up GitHub SSH Keys on CSIL (or locally)](#setting-up-github-ssh-keys-on-csil-or-locally)
-    - [What are SSH Keys?](#what-are-ssh-keys)
-    - [Step 0: Pull up Relevant Windows (web browser and terminal/command prompt)](#step-0-pull-up-relevant-windows-web-browser-and-terminalcommand-prompt)
-    - [Step 1: Log into GitHub with UCSB email](#step-1-log-into-github-with-ucsb-email)
-    - [Step 2: Go to “Settings”](#step-2-go-to-settings)
-    - [Step 3: Go to “SSH and GPG Keys” under “Access”](#step-3-go-to-ssh-and-gpg-keys-under-access)
-    - [Step 4: Get SSH keys](#step-4-get-ssh-keys)
-    - [Step 5: Input Keys and Test](#step-5-input-keys-and-test)
+- [Setting up GitHub SSH Keys on CSIL (or locally)](#setting-up-github-ssh-keys-on-csil-or-locally)
+  - [What are SSH Keys?](#what-are-ssh-keys)
+  - [Step 0: Pull up Relevant Windows (web browser and terminal/command prompt)](#step-0-pull-up-relevant-windows-web-browser-and-terminalcommand-prompt)
+  - [Step 1: Log into GitHub with UCSB email](#step-1-log-into-github-with-ucsb-email)
+  - [Step 2: Go to “Settings”](#step-2-go-to-settings)
+  - [Step 3: Go to “SSH and GPG Keys” under “Access”](#step-3-go-to-ssh-and-gpg-keys-under-access)
+  - [Step 4: Get SSH keys](#step-4-get-ssh-keys)
+  - [Step 5: Input Keys and Test](#step-5-input-keys-and-test)
+- [Example: GitHub Workflow](#example-calculator-app)
+  - [Step 1: Clone the repository]
+  - [Step 2: Pull the latest changes]
+  - [Step 3: Check the repository status]
+  - [Step 4: Remove an outdated file]
+  - [Step 5: Add your name]
+  - [Step 6: Push the changes to GitHub]
+- [Review: What did we do?]
 - [Learning More](#learning-more)
 
 ## Introduction: Why GitHub?
@@ -30,9 +37,6 @@ Suppose that you want to save your progress on your computer. You can commit tho
 
 ### Push
 Now, suppose you want to save your progress to the internet so you can access it from somewhere else. You can push all of your commits to GitHub. Because the server is in the cloud (meaning you don’t know where the server is), you can consider your code to be permanently saved. Even if your laptop gets run over by a truck, an earthquake destroys all of UCSB, and a sudden sea level increase submerges all of Santa Barbara, you’ll still be able to access your code, if you can still make it to a laptop.
-
-### Example: Calculator App
-With a calculator app, clone the repository and fix the bug (e.g., division by zero).
 
 ## Setting up GitHub SSH Keys on CSIL (or locally)
 
@@ -217,11 +221,10 @@ git push
 
 
 ## Review: What did we do?
-1. Pulled the latest changes to ensure we were working with the most up-to-date code.
-2. Removed an outdated file (README.md) and staged the removal.
-3. Fixed a bug in `main.cpp` to handle division by zero.
-4. Added a new file (CONTRIBUTING.md) to provide contribution guidelines.
-5. Pushed all changes to the remote repository to make them available to the rest of the team.
+1.	Pulled the latest changes to ensure we were working with the most up-to-date code.
+2.	Removed an random file (`[num].txt`) and staged the removal.
+3.	Added your (user)name in `names.txt`.
+4.	Pushed all changes to this repository to make them available to everyone.
 
 ## Learning More
 Now that you’ve gone through a simple Git workflow, try experimenting with other commands like branching, merging, and resolving conflicts. Git is a powerful tool that can help you collaborate effectively and keep your codebase organized.
