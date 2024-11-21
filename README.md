@@ -190,6 +190,32 @@ Now that we’ve made several changes, let’s push them to the remote repositor
 git push
 ```
 
+You may find that you get an error message:
+
+```bash
+To github.com:Phangzs/cs16-github-tutorial.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:Phangzs/cs16-github-tutorial.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+This means that somebody else has updated the repository after you last did git pull. To fix this, we need to merge the current repository with our local files.
+
+```bash
+git merge
+```
+
+A nano shell will pop up. Just save with control-x and type y in the prompt (for yes). After successfully saving, we will push again.
+
+```bash
+git push
+```
+
+
 ## Review: What did we do?
 1. Pulled the latest changes to ensure we were working with the most up-to-date code.
 2. Removed an outdated file (README.md) and staged the removal.
