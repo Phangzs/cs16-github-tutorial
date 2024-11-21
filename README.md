@@ -113,7 +113,7 @@ In the browser, we will now click the green button that says “New SSH Key.” 
 ssh -T git@github.com
 ```
 
-Let’s try an example workflow with a calculator program.
+Let’s try an example workflow.
 
 ### Example: Adding your name
 We will use an example repository for you to practice a basic Git workflow.
@@ -221,7 +221,7 @@ git push
 
 
 ## Review: What did we do?
-1.	Pulled the latest changes to ensure we were working with the most up-to-date code.
+1.	Pulled the latest changes to ensure we worked with the most up-to-date code.
 2.	Removed an random file (`[num].txt`) and staged the removal.
 3.	Added your (user)name in `names.txt`.
 4.	Pushed all changes to this repository to make them available to everyone.
