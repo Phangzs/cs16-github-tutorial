@@ -125,9 +125,8 @@ Click on it and copy the information under the “SSH” tab.
 
 Then use the following command in your terminal:
 ```bash
-git clone <repository_url>
+git clone git@github.com:ucsb-cs16-f24/github-tutorial.git
 ```
-`<repository_url>` will be replaced with the example repository url.
 
 #### Step 2: Pull the latest changes
 Before making any modifications, ensure you have the latest version of the code. Run:
@@ -162,7 +161,7 @@ Open the `names.txt` file with Vim.
 ```bash
 vim names.txt
 ```
-Go to the last line by pressing `G` in normal mode. Then add your name to the bottom of the list.
+Go to the last line by pressing `shift+G` in normal mode. Then add your name to the bottom of the list.
 
 **Original List (Example):**
 ```
@@ -197,9 +196,9 @@ git push
 You may find that you get an error message:
 
 ```bash
-To github.com:Phangzs/cs16-github-tutorial.git
+To github.com:csb-cs16-f24/github-tutorial.git
  ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'github.com:Phangzs/cs16-github-tutorial.git'
+error: failed to push some refs to 'github.com:ucsb-cs16-f24/github-tutorial.git'
 hint: Updates were rejected because the remote contains work that you do not
 hint: have locally. This is usually caused by another repository pushing to
 hint: the same ref. If you want to integrate the remote changes, use
