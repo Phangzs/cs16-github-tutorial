@@ -13,9 +13,9 @@
   - [Step 3: Go to “SSH and GPG Keys” under “Access”](#step-3-go-to-ssh-and-gpg-keys-under-access)
   - [Step 4: Get SSH keys](#step-4-get-ssh-keys)
   - [Step 5: Input Keys and Test](#step-5-input-keys-and-test)
-- [Example: GitHub Workflow](#example-calculator-app)
+- [Example: GitHub Workflow](#example-adding-your-name)
   - [Step 1: Clone the repository](#step-1-clone-the-repository)
-  - [Step 2: Pull the latest changes](#step-2pull-the-latest-changes)
+  - [Step 2: Pull the latest changes](#step-2-pull-the-latest-changes)
   - [Step 3: Check the repository status](#step-3-check-the-repository-status)
   - [Step 4: Remove an outdated file](#step-4-remove-an-outdated-file)
   - [Step 5: Add your name](#step-5-add-your-name)
@@ -26,7 +26,7 @@
 ## Introduction: Why GitHub?
 GitHub is a place to store files and save your progress. While you can store files on your computer and transport them yourself, by uploading your code to GitHub, you can view your current progress from any computer that can access that repository. In a lot of ways, GitHub is like Google Drive for code!
 
-This makes GitHub supremely useful for working in teams and developing large pieces of software. In fact, as of 2024, over 90% of Fortune 100 companies use GitHub.
+This makes GitHub supremely useful for working in teams and developing large pieces of software. In fact, as of 2024, over [90%](https://www.google.com/url?q=https://github.blog/engineering/engineering-principles/githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/&sa=D&source=docs&ust=1732217971299898&usg=AOvVaw2aeKl7VcyFi7W5HxsmfUFZ) of Fortune 100 companies use GitHub.
 
 To interact with GitHub, we go through a “workflow.” A workflow typically means a sequence of steps to interact with a version control system, which in our case is GitHub. We will explore a workflow later. First, let’s define some terms.
 
