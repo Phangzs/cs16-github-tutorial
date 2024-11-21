@@ -1,0 +1,1 @@
+This calculator currently crashes on divide by 0.
