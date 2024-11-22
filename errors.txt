@@ -1,1 +1,2 @@
-This calculator currently crashes on divide by 0.
+This calculator currently crashes on divide by 0.i
+The calculator also feels Dark Gray, All Alone.
