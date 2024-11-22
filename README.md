@@ -26,7 +26,7 @@
 ## Introduction: Why GitHub?
 GitHub is a place to store files and to save your progress. While you can store files on your computer and transport them yourself, by uploading your code to GitHub, you can see your current progress from any computer that can access that repository. In a lot of ways, GitHub is like Google Drive for code!
 
-This makes GitHub supremely useful for working in teams and developing large pieces of software. In fact, as of 2024, over 90% of Fortune 100 companies use GitHub.
+This makes GitHub supremely useful for working in teams and developing large pieces of software. In fact, as of 2024, over [90%](https://www.google.com/url?q=https://github.blog/engineering/engineering-principles/githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/&sa=D&source=docs&ust=1732237174877627&usg=AOvVaw3yCvXr4sCOH7jzdJSvaxJB) of Fortune 100 companies use GitHub.
 
 To interact with GitHub, we go through a “workflow.” A workflow typically means a sequence of steps to interact with a version control system, which in our case is GitHub. We will explore a workflow later. First, let’s define some terms.
 
