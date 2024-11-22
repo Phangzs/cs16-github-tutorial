@@ -20,6 +20,7 @@
   - [Add](#add-a-log-file)
   - [Commit Messages](#commit-messages)
   - [Push (origin main)](#push-the-changes-to-github)
+- [Review: What did we do?](#review-what-did-we-do)
 - [Learning More](#learning-more)
 
 ## Introduction: Why GitHub?
