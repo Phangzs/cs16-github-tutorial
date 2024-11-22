@@ -14,6 +14,7 @@
   - [Step 4: Get SSH keys](#step-4-get-ssh-keys)
   - [Step 5: Input keys and test](#step-5-input-keys-and-test)
 - [Example: Git Workflow with a Repository](#example-git-workflow-with-a-repository)
+  - [Copy](#copy-github-template)
   - [Clone](#clone)
   - [Pull](#pull)
   - [Status](#status)
@@ -108,12 +109,25 @@ ssh -T git@github.com
 ## Example: Git Workflow with a Repository
 Let’s try an example workflow with a calculator program. We will use an example repository for you to practice a basic Git workflow.
 
+### Copy GitHub Template
+**Step 0: Copy the repository**
+Go to the page: [https://github.com/ucsb-cs16-f24/github-tutorial](https://github.com/ucsb-cs16-f24/github-tutorial)
+
+Click the green “Use this template” near the top right of the page, and click the “create a new repository” button in the dropdown.
+
+In the field below, change the owner from yourself to ucsb-cs16-f24.
+Put “github-tutorial-username” in the Repository name field, replacing username with your username. 
+
+Click “Create repository”.
+
 ### Clone
 **Step 1: Clone the repository**  
 To start, you need to get a copy of the repository on your local machine. You can get the repository URL from the repository GitHub page - look for the “Code” button. Click on it and copy the information under the “SSH” tab. Then use the following command in your terminal:
 ```bash
-git clone git@github.com:ucsb-cs16-f24/github-tutorial.git
+git clone git@github.com:ucsb-cs16-f24/github-tutorial-username.git
 ```
+
+Replace `username` with your GitHub username from before.
 
 ### Pull
 **Step 2: Pull the latest changes**  
